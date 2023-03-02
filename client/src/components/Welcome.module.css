@@ -1,0 +1,167 @@
+.div1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 100%; */
+}
+.div2 {
+  display: flex;
+  padding-left: 2rem;
+  padding-right: 1rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+@media (min-width: 420px) {
+  .div1 {
+    width: 100%;
+  }
+}
+.div3 {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0%;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.text_gradient {
+  background-color: #fff;
+  background-image: radial-gradient(
+      at 4% 36%,
+      hsla(0, 0%, 100%, 1) 0,
+      transparent 53%
+    ),
+    radial-gradient(at 100% 60%, rgb(3, 3, 3) 0, transparent 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  color: #ffffff;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+.text_gradient2 {
+  margin-top: 1.25rem;
+  color: #ffffff;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: left;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .text_gradient {
+    width: 75%;
+  }
+}
+
+.wallet {
+  display: flex;
+  width: 60%;
+  padding: px;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9999px;
+  cursor: pointer;
+  background-color: #2952e3;
+}
+
+.eth_card {
+  background-color: #15142d;
+  background-image: radial-gradient(
+      at 83% 67%,
+      rgb(65, 177, 70) 0,
+      transparent 58%
+    ),
+    radial-gradient(at 67% 20%, hsla(357, 94%, 71%, 1) 0, transparent 59%),
+    radial-gradient(at 88% 35%, hsla(222, 81%, 65%, 1) 0, transparent 50%),
+    radial-gradient(at 31% 91%, hsla(9, 61%, 61%, 1) 0, transparent 52%),
+    radial-gradient(at 27% 71%, hsla(336, 91%, 65%, 1) 0, transparent 49%),
+    radial-gradient(at 74% 89%, hsla(30, 98%, 65%, 1) 0, transparent 51%),
+    radial-gradient(at 53% 75%, hsla(174, 94%, 68%, 1) 0, transparent 45%);
+}
+.input {
+  padding: 1.25rem;
+  width: 50%;
+  margin-right: 8rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background: rgba(50, 63, 105, 0.4);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(10, 10, 10, 0.2);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  display: flex;
+}
+.inputrow {
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  width: 100%;
+  border-style: none;
+  outline: 0;
+  background: rgb(39, 51, 89, 0.4);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(8, 8, 8, 0.2);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.divRightside {
+  display: flex;
+  padding-bottom: 4rem;
+  padding-left: 20rem;
+  flex-direction: column;
+  flex: 1 1 0%;
+  justify-content: flex-start;
+  align-items: center;
+}
+.connect1 {
+  margin-right: 0.5rem;
+  color: #ffffff;
+}
+.connect2 {
+  color: #ffffff;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+}
+.divEth {
+  display: flex;
+  width: 55%;
+  margin-right: 10rem;
+  margin-top: 4rem;
+}
+.loading {
+  height: 1px;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  background-color: #82bde4;
+  width: 100%;
+}
+
+.sendbtn {
+  color: #ffffff;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  width: 100%;
+  border-radius: 9999px;
+  cursor: pointer;
+  background: rgb(39, 51, 89, 0.4);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}

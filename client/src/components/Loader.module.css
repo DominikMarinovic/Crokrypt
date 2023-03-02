@@ -1,0 +1,27 @@
+.anim {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 9999px;
+  border-bottom-width: 2px;
+  border-color: #b91c1c;
+  animation-name: spin;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.div1 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

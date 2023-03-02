@@ -1,0 +1,77 @@
+.name {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+@media (min-width: 320px) {
+  .name {
+    justify-content: center;
+  }
+}
+
+.title {
+  color: #77add6;
+  font-size: x-large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  flex: initial;
+  flex: justify-center;
+  width: 10rem;
+  cursor: pointer;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: initial;
+}
+@media (min-width: 320px) {
+  .nav {
+    display: initial;
+  }
+}
+
+.logBtn {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(
+    100% 100% at 100% 0,
+    #5adaff 0,
+    #5468ff 100%
+  );
+
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, rgba(58, 65, 111, 0.5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+  margin-left: 10rem;
+  margin-right: 1rem;
+  border-radius: 9999px;
+  cursor: pointer;
+}
+@media (min-width: 320px) {
+  .logBtn {
+    justify-content: center;
+  }
+}
+
+.logBtn:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.logBtn:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.logBtn:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}

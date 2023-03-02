@@ -1,0 +1,13 @@
+.App_header {
+  min-height: 100vh;
+}
+.gradient_bg_welcome {
+  background-color: #000000;
+  background-image: radial-gradient(
+      at 0% 0%,
+      rgb(19, 106, 192) 0,
+      transparent 50%
+    ),
+    radial-gradient(at 50% 0%, rgb(19, 44, 51) 0, transparent 50%),
+    radial-gradient(at 100% 0%, rgb(90, 193, 230) 0, transparent 50%);
+}
